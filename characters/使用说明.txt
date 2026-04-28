@@ -1,0 +1,22 @@
+把你的动漫角色图片放在这个文件夹里，然后重新运行 three.py。
+
+支持格式：png、jpg、jpeg、bmp、webp。
+
+命名规则：
+1. 传教士角色图片：
+   missionary_1.png
+   missionary_2.png
+   missionary_3.png
+   或者 m_1.png、m_2.png
+
+2. 野人角色图片：
+   cannibal_1.png
+   cannibal_2.png
+   cannibal_3.png
+   或者 c_1.png、c_2.png
+
+建议：
+- 最好使用透明背景 PNG 图片。
+- 人物最好是竖版全身图。
+- 如果只放 1 张传教士图片和 1 张野人图片，所有同类角色都会重复使用同一张图。
+- 如果放多张图片，程序会循环使用这些图片。
