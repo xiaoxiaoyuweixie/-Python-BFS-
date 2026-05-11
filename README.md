@@ -153,14 +153,5 @@ river_crossing.mp4
 - 有些参数组合可能不存在合法解法，程序会在终端提示未找到解决方案。
 - 如果窗口中文显示异常，请确认系统中安装了微软雅黑、黑体或宋体等中文字体。
 - 如果视频导出失败，请确认已安装 `moviepy`，并确保系统可以正常使用视频编码器。
-## 上传到 GitHub 的建议
-建议不要把 `.venv/` 虚拟环境上传到 GitHub，因为它文件很多且体积较大。可以在项目根目录创建 `.gitignore`，加入：
-```text
-.venv/
-__pycache__/
-*.pyc
-river_crossing.mp4
-```
-然后重新提交 README 和其他项目文件。
 ## 作者
 GitHub 用户：`xiaoxiaoyuweixie`
